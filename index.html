@@ -3,83 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ewerton Natan | Dev Card Neon</title>
+    <title>Ewerton Natan | Links & Contato</title>
     <style>
         body {
             background-color: #0d0d0d;
             color: white;
-            font-family: sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
+            min-height: 100vh;
             margin: 0;
+            padding: 20px;
+            box-sizing: border-box;
         }
         .card {
             background: #1a1a1a;
-            padding: 2rem;
+            padding: 2.5rem 2rem;
             border-radius: 20px;
-            border: 2px solid #0ff;
-            box-shadow: 0 0 20px #0ff;
+            border: 2px solid #00f2ff;
+            box-shadow: 0 0 25px rgba(0, 242, 255, 0.25);
             text-align: center;
-            width: 300px;
-            transition: 0.3s;
+            width: 100%;
+            max-width: 340px;
+            transition: all 0.3s ease;
         }
         .card:hover {
-            transform: scale(1.05);
-            box-shadow: 0 0 40px #0ff;
+            transform: translateY(-5px);
+            box-shadow: 0 0 40px rgba(0, 242, 255, 0.4);
         }
         .perfil img {
-            width: 100px;
-            height: 100px;
+            width: 110px;
+            height: 110px;
             border-radius: 50%;
-            border: 3px solid #0ff;
+            border: 3px solid #00f2ff;
+            box-shadow: 0 0 15px rgba(0, 242, 255, 0.4);
             margin-bottom: 1rem;
             object-fit: cover;
         }
         .link-neon {
             display: block;
             margin: 1rem 0;
-            padding: 0.8rem;
-            color: #0ff;
+            padding: 0.9rem;
+            color: #00f2ff;
             text-decoration: none;
-            border: 1px solid #0ff;
-            border-radius: 10px;
-            transition: 0.3s;
+            border: 1px solid #00f2ff;
+            border-radius: 12px;
+            transition: all 0.3s ease;
             background: transparent;
             cursor: pointer;
             width: 100%;
             font-weight: bold;
+            font-size: 0.9rem;
+            letter-spacing: 1px;
             box-sizing: border-box;
             text-transform: uppercase;
         }
         .link-neon:hover {
-            background: #0ff;
-            color: #000;
-            box-shadow: 0 0 20px #0ff;
+            background: #00f2ff;
+            color: #0d0d0d;
+            box-shadow: 0 0 20px rgba(0, 242, 255, 0.6);
         }
-        h1 { margin: 0.5rem 0; font-size: 1.5rem; }
-        p { color: #888; margin-bottom: 1.5rem; }
+        h1 { margin: 0.5rem 0; font-size: 1.5rem; letter-spacing: 1px; }
+        p { color: #888; font-size: 0.9rem; margin-bottom: 1.8rem; }
     </style>
 </head>
 <body>
 
     <div class="card">
         <div class="perfil">
-            <!-- Foto do GitHub -->
+            <!-- Foto puxada automaticamente do GitHub -->
             <img src="https://github.com/Tonatan36.png" alt="Foto de Ewerton Natan">
             <h1>Ewerton Natan</h1>
-            <p>Estudante de ADS & Dev Web</p>
+            <p>ADS & Analista de Dados</p>
         </div>
         
         <div class="links">
-            <a href="https://github.com/Tonatan36" target="_blank" class="link-neon">GitHub</a>
-            <a href="https://www.linkedin.com/in/ewerton-natan-b9ab5238b" target="_blank" class="link-neon">LinkedIn</a>
-            <!-- Link do seu WhatsApp -->
-            <a href="https://wa.me/5583987225580" target="_blank" class="link-neon">WhatsApp</a>
+            <a href="https://github.com/Tonatan36" target="_blank" class="link-neon">💻 GitHub</a>
+            <a href="https://www.linkedin.com/in/ewerton-natan-b9ab5238b" target="_blank" class="link-neon">🔗 LinkedIn</a>
+            <a href="https://site.zapia.com/uf38yjce" target="_blank" class="link-neon">📄 Currículo / Site</a>
+            <a href="https://wa.me/5583987225580" target="_blank" class="link-neon">📱 WhatsApp</a>
         </div>
     </div>
 
 </body>
 </html>
-
